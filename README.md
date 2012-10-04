@@ -1,5 +1,6 @@
-brunch-with-brunch
-==================
+Project Name
+============
 
-An empty brunch skeleton without any other dependencies.
+Here, you can include details about what your project is and how it is
+supposed to be used.
 
