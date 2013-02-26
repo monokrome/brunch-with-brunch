@@ -1,6 +1,6 @@
-Project Name
-============
+Brunch with Brunch
+==================
 
-Here, you can include details about what your project is and how it is
-supposed to be used.
+This is as minimal of a project as possible with brunch. It includes only
+javascript, css, and optimization plugins. The rest is left up to you.
 
