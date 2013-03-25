@@ -2,7 +2,7 @@
   "author": "Your Name",
   "name": "package-name",
   "description": "Package description",
-  "version": "0.0.1",
+  "version": "1.5.4",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -16,12 +16,12 @@
     "test": "brunch test"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.5",
+    "javascript-brunch": ">= 1.0 < 1.6",
 
-    "css-brunch": ">= 1.0 < 1.5",
+    "css-brunch": ">= 1.0 < 1.6",
 
-    "uglify-js-brunch": ">= 1.0 < 1.5",
-    "clean-css-brunch": ">= 1.0 < 1.5"
+    "uglify-js-brunch": ">= 1.0 < 1.6",
+    "clean-css-brunch": ">= 1.0 < 1.6"
   },
   "devDependencies": {
   }
