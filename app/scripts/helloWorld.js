@@ -1,5 +1,3 @@
 exports.hello = function(){
-  console.log('hello world');
-  return 'hello world';
-
+  return 'Hello World!';
 }

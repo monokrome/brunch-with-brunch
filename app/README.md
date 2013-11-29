@@ -1,6 +1,8 @@
 Application
 ===========
 
-Put your application-specific files here, but leave your third party libraries in the vendor directory.  You do not need to separate types according to directory as Brunch will concatenate all js/css files automatically by default.
+Put your application-specific files here, but leave your third party libraries in the vendor directory.  Within Javascript and CSS, you will reference all of your code using whatever directory structure you layout here.  However, in your HTML, you must refer to `/stylesheets/app.css` and `/javascripts/app.js` for javascript files.
 
-However, you can customize the concatenation settings in `config.coffee` and using a directory structure can make more complex builds simpler.  For example, you could have two end js files `baz.js` and `bar.js` which both use a common base module `foo.js` via `var bar.foo = require('foo.js')` and `baz.foo = require('foo.js')`.  Instead of a baz and bar having to list each file you can place `foo.js` into  `/scripts/libs/foo.js` and match against all files in the libs directory `/scripts/libs/*`.
+You may customize this directory structure without changing any other settings as Brunch will concatenate all js/css files and place them into `/stylesheets/app.css` and `/javascripts/app.js` by default.
+
+You can customize the concatenation settings in `config.coffee` and using a directory structure can make more complex builds simpler.  For example, say you want to brunch to produce two files for production use, `baz.js` and `bar.js`.  If `foo.js` is used ing both `bar.js` `var bar.foo = require('scripts/foo.js')` and `baz.js` `baz.foo = require('scripts/foo.js')`, you could place `foo.js` into  `/scripts/libs/foo.js` and match against all files in the libs directory `/scripts/libs/*` in `config.coffee`'s `joinTo` entries for `bar.js` and `baz.js`.
