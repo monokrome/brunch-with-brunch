@@ -1,0 +1,21 @@
+{
+  "name": "brunch-with-brunch",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yourname/brunch-with-brunch",
+  "authors": [
+    "Your Name <and@email.com>"
+  ],
+  "description": "Package description",
+  "main": "app.js",
+  "keywords": [
+    "keywords"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
