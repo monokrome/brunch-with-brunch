@@ -94,19 +94,26 @@ require.register("app", function(exports, require, module) {
 
 var hello = require('scripts/helloWorld').hello;
 
+hello();
 console.log('hello', hello());
 
 window.onload = function() {
+  hello();
   console.log('hello onload', hello());
-
-
 }
+
+$(document).ready(function(){
+  hello();
+  console.log('hello ready', hello());
+  $('#hello').text(hello() + 'ready');
+});
 });
 
 ;require.register("scripts/helloWorld", function(exports, require, module) {
 exports.hello = function(){
   console.log('hello world');
   return 'hello world';
+
 }
 });
 
