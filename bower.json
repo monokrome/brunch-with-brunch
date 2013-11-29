@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "homepage": "https://github.com/yourname/brunch-with-brunch",
   "authors": [
-    "Your Name <and@email.com>"
+    "Your Name <email@address.com>"
   ],
   "description": "Package description",
-  "main": "app.js",
+  "main": "main.js",
   "keywords": [
     "keywords"
   ],
