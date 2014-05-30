@@ -22,3 +22,6 @@ exports.config =
 
     templates:
       joinTo: 'javascripts/app.js'
+
+  conventions:
+    assets: /(assets|vendor\/assets|font)/
