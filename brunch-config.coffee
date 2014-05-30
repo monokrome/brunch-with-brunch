@@ -1,5 +1,5 @@
 exports.config =
-  # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
+  # See https://github.com/brunch/brunch/blob/master/docs/config.md for documentation.
   paths:
     public: 'www'  
   files:
